@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a499cdb4-4e1c-4892-8ce5-7657a033fb18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a499cdb4-4e1c-4892-8ce5-7657a033fb18" name="Changes" comment="add AlarmOne files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +34,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AlarmOne">
+  <component name="RunManager" selected="Application.AlarmTwo">
     <configuration name="AlarmOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlarmOne" />
+      <module name="AlarmTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlarmTwo" />
       <module name="AlarmTask" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,8 +63,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlarmOne" />
+        <item itemvalue="Application.AlarmTwo" />
         <item itemvalue="JUnit.All in AlarmTask" />
+        <item itemvalue="Application.AlarmOne" />
       </list>
     </recent_temporary>
   </component>
@@ -73,6 +78,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662022354205</updated>
     </task>
+    <task id="LOCAL-00001" summary="add AlarmOne files">
+      <created>1662023427378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662023427378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add AlarmOne files">
+      <created>1662023456203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662023456203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add AlarmOne files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AlarmOne files" />
   </component>
 </project>
