@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AlarmTwoTest {
-
     @Test
     void AlarmRed() {
         //given
@@ -13,7 +12,7 @@ public class AlarmTwoTest {
         String actual = AlarmTwo.alarm(value);
 
         //then
-        assertEquals("red", actual);
+        assertEquals("keine Personen erlaubt", actual);
     }
 
     @Test
@@ -25,7 +24,7 @@ public class AlarmTwoTest {
         String actual = AlarmTwo.alarm(value);
 
         //then
-        assertEquals("yellow", actual);
+        assertEquals("max 30 Personen erlaubt", actual);
     }
 
     @Test
@@ -37,6 +36,6 @@ public class AlarmTwoTest {
         String actual = AlarmTwo.alarm(value);
 
         //then
-        assertEquals("green", actual);
+        assertEquals("max 60 Personen erlaubt", actual);
     }
 }

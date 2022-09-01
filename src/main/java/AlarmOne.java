@@ -1,13 +1,17 @@
 public class AlarmOne {
 
     public static void main(String[] args) {
-        if (alarm(25) > 30) {
-            System.out.println("Zu viele Personen zurück");
-        } else {
-            System.out.println("Maximale Personenzahl nicht überschritten");
-        }
+        int number =  30;
+
+        System.out.println(alarm(number));
     }
-    public static int alarm(int number) {
-        return number;
+    public static String alarm(int number) {
+        if (number > 30) {
+            return "Zu viele Personen zurück";
+        } else if (number == 30) {
+            return "You're right in the middle!";
+        } else {
+            return "Maximale Personenzahl nicht überschritten";
+        }
     }
 }

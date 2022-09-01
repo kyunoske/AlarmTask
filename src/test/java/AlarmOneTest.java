@@ -3,17 +3,28 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AlarmOneTest {
-
     @Test
     void AlarmTestForUnder30() {
         //given
         int number = 26;
 
         //when
-        int actual = AlarmOne.alarm(number);
+        String actual = AlarmOne.alarm(number);
 
         //then
-        assertEquals(26, actual);
+        assertEquals("Maximale Personenzahl nicht überschritten", actual);
+    }
+
+    @Test
+    void AlarmTestFor30() {
+        //given
+        int number = 30;
+
+        //when
+        String actual = AlarmOne.alarm(number);
+
+        //then
+        assertEquals("You're right in the middle!", actual);
     }
 
     @Test
@@ -22,9 +33,9 @@ public class AlarmOneTest {
         int number = 65;
 
         //when
-        int actual = AlarmOne.alarm(number);
+        String actual = AlarmOne.alarm(number);
 
         //then
-        assertEquals(65, actual);
+        assertEquals("Zu viele Personen zurück", actual);
     }
 }
